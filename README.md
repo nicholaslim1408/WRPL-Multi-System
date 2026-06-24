@@ -70,7 +70,8 @@ Setelah berjalan, buka browser ke:
 4. Akun contoh (seed data) yang sudah tersedia:
    - Username: `kebun_sayur` (toko "Kebun Sayur Segar")
    - Username: `demo` (toko "Demo Toko")
-Note : Password yang ada di kode di hash, jika tidak tahu atau lupa password demo maka jalankan :
+
+- Note : Password yang ada di kode di hash, jika tidak tahu atau lupa password demo maka jalankan :
 ```bash
 mysql -u root -p < "RessetPasswordAdmindanKebunsayurdemo.sql"
 ```
