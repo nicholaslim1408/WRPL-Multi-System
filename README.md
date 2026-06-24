@@ -32,7 +32,7 @@ Jalankan skrip SQL **dengan urutan berikut**, karena `logistik_db` membaca refer
 ```bash
 # 1) Buat & isi database panennet (Panen.net) terlebih dahulu
 mysql -u root -p < "setup_database (2).sql"
-lalu
+# lalu
 mysql -u root -p < "setup_database (2.1).sql"
 
 
