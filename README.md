@@ -70,7 +70,17 @@ Setelah berjalan, buka browser ke:
 4. Akun contoh (seed data) yang sudah tersedia:
    - Username: `kebun_sayur` (toko "Kebun Sayur Segar")
    - Username: `demo` (toko "Demo Toko")
-   - *(Password disimpan ter-hash; gunakan akun yang Anda daftarkan sendiri jika tidak tahu password seed.)*
+Note : Password yang ada di kode di hash, jika tidak tahu atau lupa password demo maka jalankan :
+```bash
+mysql -u root -p < "RessetPasswordAdmindanKebunsayurdemo.sql"
+```
+
+maka untuk akun demo Panen.net akan memiliki password sebagai berikut : 
+
+| Username | Password |
+|---|---|
+| `kebun_sayur` | `KebunSayur@2026!` |
+| `admin_demo` | `Admin@2026!` |
 
 ### 2.2. Menu Beranda
 
